@@ -34,6 +34,10 @@ body, .btn {
   font-size: 1.6875rem;
 }
 
+.nearby {
+  padding: 1px;
+}
+
 .color-green {
   color: #33B5B7;
 }

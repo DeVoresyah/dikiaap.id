@@ -1,5 +1,3 @@
-
-
 (function(){
     $(window).scroll(function() {
 
@@ -10,8 +8,6 @@
         }
     });
   })();
-
-
 
 function fader() {
   var r = $('.blurred'),
@@ -53,13 +49,6 @@ jQuery(document).ready(function($){
             $('#to-top').fadeOut('slow');
         }
     });
-});
-
-var flkty = new Flickity( '.main-gallery', {
-  cellAlign: 'left',
-  wrapAround: true,
-  prevNextButtons: true,
-  autoPlay: 5000
 });
 
 $(document).ready(function(){

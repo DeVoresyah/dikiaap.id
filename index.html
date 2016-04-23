@@ -1,40 +1,415 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>Diki Andriansyah</title><link rel="shortcut icon" href="/favicon.png" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="author" content="dikiaap"> <meta name="HandheldFriendly" content="True"> <meta name="description" content="Hi, Saya Diki Andriansyah. Suka membangun sesuatu dengan code dan aktivitas sekarang sebagai developer. Untuk passion, saya berada di Web Developer."> <meta name="keywords" content="Diki Andriansyah, dikiaap, Diki Andriansyah Ananta Putra"> <meta name="rating" content="general"> <meta name="robots" content="index,follow"> <meta name="revisit-after" content="2 days"> <meta name="language" content="Indonesian, English"> <meta name="distribution" content="Global"> <meta property="og:site_name" content="Diki Andriansyah"> <meta property="og:title" content="Diki Andriansyah"> <meta property="og:description" content="Hi, Saya Diki Andriansyah. Suka membangun sesuatu dengan code dan aktivitas sekarang sebagai developer. Untuk passion, saya berada di Web Developer."> <meta property="og:image" content="http://i.imgur.com/JdcrjD5.png"> <meta property="twitter:site" content="@dikiaap"> <meta property="twitter:site:id" content="2667578047"> <meta property="twitter:card" content="summary"> <meta property="twitter:title" content="Diki Andriansyah"> <meta property="twitter:description" content="Hi, Saya Diki Andriansyah. Suka membangun sesuatu dengan code dan aktivitas sekarang sebagai developer. Untuk passion, saya berada di Web Developer."> <meta property="twitter:image:src" content="http://i.imgur.com/JdcrjD5.png"> <link href="https://plus.google.com/+dikiandriansyahap" rel="author"> <link href="https://plus.google.com/+dikiandriansyahap" rel="publisher"> <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"><link href="/assets/css/main.css" rel="stylesheet"/> </head> <body><div class="container"><div class="strip" id="header"><h1><a href="/"><img src="/images/name.png" alt="Diki Andriansyah"></a></h1> <p><div id="kaomoji"></div></p></div><div class="strip" id="footer"><a href="https://twitter.com/dikiaap" target="_blank"><i class="fa fa-twitter fa-fw"></i></a> <a href="https://github.com/dikiaap" target="_blank"><i class="fa fa-github fa-fw"></i></a> <a href="https://linkedin.com/in/dikiaap" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i></a> <a href="mailto:diki@dikiaap.id"><i class="fa fa-envelope fa-fw"></i></a> <p></p>&copy; Now 2016<br> <a href="https://blog.dikiaap.id">Dev blog</a> - <a href="https://medium.com/@dikiaap" target="_blank">Medium</a> - <a href="https://tencorn.wordpress.com" target="_blank">Tencorn</a></div></div><script>(function(){var kaomojiList=[ '(Θ︹Θ)ს', '(￣▽￣)/', '.·´¯`(>▂<)´¯`·.', '(つ﹏<)･ﾟ｡', '｡ﾟ( ﾟஇ‸இﾟ+)ﾟ｡', '・（／。＼）・', '(/°(ｴ)°)/', 'o(╥﹏╥)o', '(━━━┳━━━○━━━┳━━━)', 'o(≧▽≦)o', '(ʃ⌣́,⌣́ƪ)', '(҂⌣•̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩ •̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩ ⌣)', '(~‾‾•̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩ •̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩̩ ‾‾)~', '(✧∀✧)/', '(─‿‿─)']; var randomKaomoji=Math.floor((Math.random() * kaomojiList.length)); var placeholder=document.getElementById('kaomoji'); placeholder.innerHTML=kaomojiList[randomKaomoji];})(); </script>
-<!-- Not minify :D -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Diki Andriansyah</title>
+
+    <!-- Meta Element -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="keywords" content="Diki Andriansyah,dikiaap,Diki Andriansyah Ananta Putra">
+    <meta name="description" content="Hi, Saya Diki Andriansyah. Suka membangun sesuatu dengan code dan aktivitas sekarang sebagai developer. Untuk passion, saya berada di Web Developer.">
+    <meta name="subject" content="Portfolio Diki Andriansyah">
+    <meta name="language" content="en">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="Diki Andriansyah, diki@dikiaap.id">
+    <meta name="reply-to" content="diki@dikiaap.id">
+    <meta name="owner" content="Diki Andriansyah">
+    <meta name="url" content="https://dikiaap.id">
+    <meta name="identifier-URL" content="https://dikiaap.id">
+    <meta name="directory" content="submission">
+    <meta name="category" content="">
+    <meta name="coverage" content="Worldwide">
+    <meta name="distribution" content="Global">
+    <meta name="rating" content="General">
+    <meta name="revisit-after" content="2 days">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@dikiaap">
+    <meta name="twitter:title" content="Diki Andriansyah">
+    <meta name="twitter:description" content="Hi, Saya Diki Andriansyah. Suka membangun sesuatu dengan code dan aktivitas sekarang sebagai developer. Untuk passion, saya berada di Web Developer.">
+    <meta name="twitter:image" content="https://i.imgur.com/oGRHB2p.png">
+
+    <!-- Facebook Open Graph -->
+    <meta property="og:url" content="https://dikiaap.id">
+    <meta property="og:title" content="Diki Andriansyah">
+    <meta property="og:description" content="Hi, Saya Diki Andriansyah. Suka membangun sesuatu dengan code dan aktivitas sekarang sebagai developer. Untuk passion, saya berada di Web Developer.">
+    <meta property="og:site_name" content="Diki Andriansyah">
+    <meta property="og:image" content="https://i.imgur.com/oGRHB2p.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Google+ -->
+    <meta itemprop="name" content="Diki Andriansyah">
+    <meta itemprop="description" content="Hi, Saya Diki Andriansyah. Suka membangun sesuatu dengan code dan aktivitas sekarang sebagai developer. Untuk passion, saya berada di Web Developer.">
+    <meta itemprop="image" content="https://i.imgur.com/oGRHB2p.png">
+
+    <!-- Android -->
+    <meta name="theme-color" content="#33B5B7">
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flickity/1.2.1/flickity.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!-- Link Element -->
+    <link rel="index" href="https://dikiaap.id" title="Diki Andriansyah">
+    <link href="https://plus.google.com/+dikiandriansyahap" rel="author">
+    <link href="https://plus.google.com/+dikiandriansyahap" rel="publisher">
+    <link href="https://dikiaap.id" rel="canonical">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon-16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="favicon-48.png" sizes="48x48" type="image/png">
+    <link rel="icon" href="favicon-62.png" sizes="62x62" type="image/png">
+</head>
+<body>
+<!-- Background images -->
+<div class="image-wrap">
+    <div class="regular"
+         style="background:url(/assets/images/header-bg.jpg) no-repeat center center; background-size: cover;"></div>
+    <div class="blurred"
+         style="background:url(/assets/images/header-blur.jpg) no-repeat center center; background-size: cover;"></div>
+</div>
+
+<!-- Header start here -->
+<header id="home" class="header__hero">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="header__hero__text">Diki Andriansyah</h1>
+                <h2>Full Stack Web Developer</h2>
+
+                <!-- Twitter -->
+                <a href="https://twitter.com/dikiaap" class="color-white color-twitter" target="_blank">
+                    <i class="fa fa-twitter fa-fw"></i></a>
+
+                <!-- Linkedin -->
+                <a href="https://www.linkedin.com/in/dikiaap" class="color-white color-linkedin" target="_blank">
+                    <i class="fa fa-linkedin fa-fw"></i></a>
+
+                <!-- GitHub -->
+                <a href="https://github.com/dikiaap" class="color-white color-black" target="_blank">
+                    <i class="fa fa-github fa-fw"></i></a>
+
+                <!-- CodePen -->
+                <a href="https://codepen.io/dikiaap" class="color-white color-black" target="_blank">
+                    <i class="fa fa-codepen fa-fw"></i></a>
+
+                <!-- Stack Overflow -->
+                <a href="https://stackoverflow.com/users/5394213/diki-andriansyah" class="color-white color-stack-overflow" target="_blank">
+                    <i class="fa fa-stack-overflow fa-fw"></i></a>
+
+                <!-- Dribbble -->
+                <a href="https://dribbble.com/dikiaap" class="color-white color-dribbble" target="_blank">
+                    <i class="fa fa-dribbble fa-fw"></i></a>
+
+                <!-- Behance -->
+                <a href="https://www.behance.net/dikiaap" class="color-white color-behance" target="_blank">
+                    <i class="fa fa-behance fa-fw"></i></a>
+
+                <!-- Get in touch -->
+                <div class="header__hero__btn">
+                    <a href="mailto:diki1aap@gmail.com?subject=Hello"><button class="btn btn-outline btn-default" type="submit">Get in touch</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Navigation -->
+<nav id="nav" class="navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#home">@dikiaap</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="https://blog.dikiaap.id">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- About -->
+<section id="about" class="section-intro section-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>Who am I?</h3>
+                <p class="section-paragraph">
+                    I am passionate about Full-stack Web Developer with 6+ years experience of all levels, experience of work in teams, and with huge codebases.</br></br>
+                    Most of my time I am working with <strong>Laravel</strong> Framework, <strong>Front-end</strong> Framework like Bootstrap, Material Design Lite, and Semantic UI.<br>
+                    Use <strong>Testing Tools</strong> like PHPUnit, PHPSpec, Codeception, and also loves <strong>JavaScript</strong>, Node.js, and Vue.js.</br></br>
+                    With all the technologies available, there is many best solution.</br>
+                    A web app built in Laravel? Nice.</br>
+                    A web design that needs beauty looks? Welcome!</br>
+                    A custom UI solution implemented using jQuery on a Wordpress site? Done.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <div class="image">
+                    <img class="img-responsive" src="/assets/images/about-part.png" alt="img03">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio" class="section-white portfolio">
+    <div class="container-fluid">
+
+        <!-- Projects -->
+        <div class="row">
+            <h3 class="text-center">Portfolio</h3>
+            <ul class="filter">
+                <li class="active"><a href="/#portfolio" data-filter="*">All</a></li>
+                <li><a href="https://www.instagram.com/dikiaap" data-filter=".photography" target="_blank">Photography</a></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="#" class="error">
+                <figure class="photography">
+                    <img src="/assets/images/portfolio/land-sale-bali.jpg" alt="img03">
+                    <figcaption>
+                    <h3>Land Sale Bali</h3>
+                    </figcaption>
+                </figure>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="https://github.com/DikiCook" class="color-green" target="_blank">
+                    <figure>
+                        <img src="/assets/images/portfolio/dcooks.jpg" alt="img03">
+                        <figcaption>
+                        <h3>D'Cooks</h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="https://blog.dikiaap.id" class="color-green" target="_blank">
+                    <figure>
+                        <img src="/assets/images/portfolio/mangan.jpg" alt="img03">
+                        <figcaption>
+                        <h3>Mangan</h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="#" class="error">
+                <figure>
+                    <img src="/assets/images/portfolio/aftershock.jpg" alt="img03">
+                    <figcaption>
+                    <h3>Aftershock</h3>
+                    </figcaption>
+                </figure>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="https://cloud.libscode.com" class="color-green" target="_blank">
+                    <figure>
+                        <img src="/assets/images/portfolio/libscode-cloud.jpg" alt="img03">
+                        <figcaption>
+                        <h3>LibsCode Cloud</h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="https://tencorn.wordpress.com" class="color-green" target="_blank">
+                    <figure>
+                        <img src="/assets/images/portfolio/tencorn.jpg" alt="img03">
+                        <figcaption>
+                        <h3>Tencorn</h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- GitHub Portfolio -->
+        <div class="row">
+            <h3 class="text-center">GitHub</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="https://github.com/dikiaap/aftershock" class="color-green" target="_blank">
+                    <figure>
+                        <img src="/assets/images/portfolio/github.jpg" alt="img03">
+                        <figcaption>
+                        <h3>#laravel</h3>
+                        </figcaption>
+                    </figure>
+                    <div class="text-center">Aftershock</div>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="https://github.com/dikiaap/ushop" class="color-green" target="_blank">
+                    <figure>
+                        <img src="/assets/images/portfolio/github.jpg" alt="img03">
+                        <figcaption>
+                        <h3>#laravel</h3>
+                        </figcaption>
+                    </figure>
+                    <div class="text-center">Ushop</div>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="https://github.com/GitIndonesia/awesome-indonesia-repo" class="color-green" target="_blank">
+                    <figure>
+                        <img src="/assets/images/portfolio/github.jpg" alt="img03">
+                        <figcaption>
+                        <h3>#markdown</h3>
+                        </figcaption>
+                    </figure>
+                    <div class="text-center">Awesome Indonesia Repo</div>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="https://github.com/dikiaap/mangan" class="color-green" target="_blank">
+                    <figure>
+                        <img src="/assets/images/portfolio/github.jpg" alt="img03">
+                        <figcaption>
+                        <h3>#jekyll</h3>
+                        </figcaption>
+                    </figure>
+                    <div class="text-center">Mangan Theme</div>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="https://github.com/dikiaap/frost-plank-theme" class="color-green" target="_blank">
+                    <figure>
+                        <img src="/assets/images/portfolio/github.jpg" alt="img03">
+                        <figcaption>
+                        <h3>#plank</h3>
+                        </figcaption>
+                    </figure>
+                    <div class="text-center">Frost Theme</div>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="https://github.com/dikiaap/phpliteadmin-flat-sea" class="color-green" target="_blank">
+                    <figure>
+                        <img src="/assets/images/portfolio/github.jpg" alt="img03">
+                        <figcaption>
+                        <h3>#phpliteadmin</h3>
+                        </figcaption>
+                    </figure>
+                    <div class="text-center">Flat SEA</div>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="https://github.com/dikiaap/dotfiles" class="color-green" target="_blank">
+                    <figure>
+                        <img src="/assets/images/portfolio/github.jpg" alt="img03">
+                        <figcaption>
+                        <h3>❤ ~/</h3>
+                        </figcaption>
+                    </figure>
+                    <div class="text-center">dotfiles</div>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="https://github.com/dikiaap/editorconfig-laravel" class="color-green" target="blank">
+                    <figure>
+                        <img src="/assets/images/portfolio/github.jpg" alt="img03">
+                        <figcaption>
+                        <h3>#laravel</h3>
+                        </figcaption>
+                    </figure>
+                    <div class="text-center">EditorConfig Laravel</div>
+                </a>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- Free Code Camp Portfolio -->
+        <div class="row">
+            <h3 class="text-center">Free Code Camp</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="https://codepen.io/dikiaap/full/EKEaqN/" class="color-green" target="_blank">
+                    <figure>
+                        <img src="/assets/images/portfolio/freecodecamp.jpg" alt="img03">
+                        <figcaption>
+                        <h3>#material-design</h3>
+                        </figcaption>
+                    </figure>
+                    <div class="text-center">Ir. Soekarno</div>
+                </a>
+            </div>
+            <div class="col-md-3 portfolio-item cs-style-3">
+                <a href="https://codepen.io/dikiaap/full/revVWe/" class="color-green" target="_blank">
+                    <figure>
+                        <img src="/assets/images/portfolio/freecodecamp.jpg" alt="img03">
+                        <figcaption>
+                        <h3>#material-design</h3>
+                        </figcaption>
+                    </figure>
+                    <div class="text-center">Portfolio Webpage</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer start here -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 copyright">
+                <p>&copy; <span id="currentYear"></span> <a href="https://dikiaap.id" class="color-white">Diki Andriansyah</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Button scrolling up -->
+<a href="#home" ID="to-top"><i class="fa fa-angle-double-up"></i></a>
+
+<!-- JavaScript source -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/flickity/1.2.1/flickity.pkgd.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+<script src="/assets/js/app.js"></script>
+
+<!-- SweetAlert -->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-64731723-6', 'auto');
-  ga('send', 'pageview');
-
+    $('a.error').click(function() {
+        swal("Oops...", "Something went wrong!\nBroken link maybe", "warning");
+    });
 </script>
-</body></html>
-<!--
-Thanks for seeing my code.
-            _____________________
-            |###################|
-            |###################|
-            |###################|
-            |###################|
-((- - - - - - - - - - - - - - - - - - - - -
-| \         /  /@@ \      /@@ \  \
- \ \,      /  (     )    (     )  \             _____
-  \ \      |   \___/      \___/   |            /  __ \
-   \ ""*-__/                      \            | |  | |
-    ""*-_                         "-_          | |  """
-         \    -.  _________   .-   __"-.__. -((  ))
-          \,    \^    U    ^/     /  "-___- -((  ))
-            \,   \         /    /'             | |
-             |    \       /   /'               | |
-             |     "- - -"    \                | |
-            /                  "*-._           | |
-           /   /\          /*-._    \          | |
-          /   /  "\______/"     /   /          | |
-         /   /                 /   /           | |
-        /. ./                  |. .|           """
-       /  | |                  / | \
-      /   |  \                /  |  \
-     /.-./.-.|               /.-.|.-.\
--->
+</body>
+</html>

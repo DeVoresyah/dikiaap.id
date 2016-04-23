@@ -42,14 +42,6 @@ body, .btn {
   background: rgba(82, 203, 180, 0.34);
 }
 
-.nearby {
-  padding: 1px;
-}
-
-.fa-2x {
-  font-size: 1.5em;
-}
-
 .color-green {
   color: #33B5B7;
 }
@@ -96,6 +88,37 @@ body, .btn {
   font-size: 1.6875rem;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+}
+
+.btn-green {
+    color: #33B5B7;
+    border-color: #33B5B7;
+}
+
+.btn-green:hover {
+    color: #33B5B7;
+    border-color: #33B5B7;
+}
+
+.nearby {
+  padding: 1px;
+}
+
+.fa-2x {
+  font-size: 1.5em;
+}
+
+.rounded {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.height {
+    height: 465px;
+}
+
+.space {
+    padding-top: 20px;
 }
 
 .navbar {

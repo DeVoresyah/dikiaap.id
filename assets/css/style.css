@@ -35,7 +35,11 @@ body, .btn {
 }
 
 .nearby {
-  padding: 2px;
+  padding: 1px;
+}
+
+.fa-2x {
+  font-size: 1.5em;
 }
 
 .color-green {
@@ -55,35 +59,29 @@ body, .btn {
 }
 
 .color-twitter:hover {
-  color: #1DA1F2;
-  background-color: #FFFFFF;
+  color: #00f0ff;
 }
 
 .color-linkedin:hover {
-  color: #1B86BC;
-  background-color: #FFFFFF;
+  color: #0050ea;
   border-radius: 20%;
 }
 
 .color-black:hover {
-  color: #FFFFFF;
-  background-color: #2c2c2c;
+  color: #2c2c2c;
 }
 
 .color-stack-overflow:hover {
-  color: #F48024;
-  background-color: #FFFFFF;
+  color: #ed710c;
 }
 
 .color-dribbble:hover {
-  color: #9F005D;
-  background-color: #EE70A0;
+  color: #e82397;
   border-radius: 50%;
 }
 
 .color-behance:hover {
-  color: #0061FF;
-  background-color: #FFFFFF;
+  color: #0050ea;
 }
 
 .btn {

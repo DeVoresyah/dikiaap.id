@@ -34,6 +34,14 @@ body, .btn {
   font-size: 1.6875rem;
 }
 
+::-moz-selection {
+  background: rgba(82, 203, 180, 0.34);
+}
+
+::selection {
+  background: rgba(82, 203, 180, 0.34);
+}
+
 .nearby {
   padding: 1px;
 }

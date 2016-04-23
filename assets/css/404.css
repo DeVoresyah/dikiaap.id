@@ -13,6 +13,16 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+::-moz-selection {
+    color: #FFFFFF;
+    background: rgba(37, 37, 37, 0.45);
+}
+
+::selection {
+    color: #FFFFFF;
+    background: rgba(37, 37, 37, 0.45);
+}
+
 .container {
     text-align: center;
     display: table-cell;

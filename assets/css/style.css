@@ -8,7 +8,7 @@
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 100;
   margin-bottom: 0;
 }
@@ -118,6 +118,12 @@ body, .btn {
 
 .space-without-words {
     height: 20px;
+}
+
+@media (max-width: 768px) {
+  .text-xs-center {
+    text-align: center;
+  }
 }
 
 .navbar {
@@ -256,6 +262,7 @@ body, .btn {
 
 .img-responsive {
   padding-right: 0;
+  margin: 0 auto;
 }
 
 section {

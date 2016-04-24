@@ -121,6 +121,10 @@ body, .btn {
     padding-top: 20px;
 }
 
+.space-without-words {
+    height: 20px;
+}
+
 .navbar {
   background: transparent;
   border: none;

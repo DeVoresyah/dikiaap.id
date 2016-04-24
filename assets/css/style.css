@@ -90,14 +90,8 @@ body, .btn {
   transition: all 0.5s ease-in-out;
 }
 
-.btn-green {
-    color: #33B5B7;
-    border-color: #33B5B7;
-}
-
-.btn-green:hover {
-    color: #33B5B7;
-    border-color: #33B5B7;
+.btn-radius-false {
+  border-radius: 0px;
 }
 
 .nearby {
@@ -273,7 +267,7 @@ section {
 }
 .section-white {
   background: white;
-  padding: 50px 0;
+  padding: 50px 0 70px;
 }
 
 .portfolio .filter {
@@ -368,10 +362,6 @@ section {
 }
 .cs-style-3 figure figcaption a i {
   font-size: 1.40625rem;
-}
-
-.image {
-  margin-top: 125px;
 }
 
 @media screen and (max-width: 768px) {

@@ -13,6 +13,10 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+img {
+    width: 185px;
+}
+
 ::-moz-selection {
     color: #FFFFFF;
     background: rgba(37, 37, 37, 0.45);

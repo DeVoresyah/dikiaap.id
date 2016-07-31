@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/dikiaap
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dikiaap.id
+  * I am dikiaap (https://keybase.io/dikiaap) on keybase.
+  * I have a public key with fingerprint C2D5 FD81 98A1 A2C8 E201  047D 0401 8912 40CB 58FD
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101ef810436c62e72b26d1abca7436e8c0ba99a25db24f34d2aed747b54801b9de70a",
+            "fingerprint": "c2d5fd8198a1a2c8e201047d0401891240cb58fd",
+            "host": "keybase.io",
+            "key_id": "0401891240cb58fd",
+            "kid": "0101ef810436c62e72b26d1abca7436e8c0ba99a25db24f34d2aed747b54801b9de70a",
+            "uid": "0c76ce883733a4f71cb0dea1d9a7f319",
+            "username": "dikiaap"
+        },
+        "service": {
+            "hostname": "dikiaap.id",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1469991742,
+    "expire_in": 157680000,
+    "prev": "f1e8c77c246e0d6e39ae7633c78429c13b64845c15ad28c378515f1456856730",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMIgAnicrVJbSBVBGD6nsqNS1omoSIJaoocS2Zmd3dk9D5EVpSgUXai0Os3OzHo2
+bfd0znpKSoiICAop0bJMLaK7YCJ0s5vRQ9BFums3ii762kUIi2o26yF6bV5+5uP7
+vv/7f/4bI4cGMoPPx7S9Gzu35EPwVmdtRWBZU+HMTZLpskopskkq478KL2c86UXL
+bCZFJBnIgFs6kJGiUQ1yDE2oMUBMSrCAuE5lkxgGgSozIbIUxCDhDCNsqkiXgWkw
+jmUi5UiW7ZTyRDxhO56wpZCpFtOBoRNAINU5FI0QZjKSgW4AiGRqqrrFhDDmJn2F
+CGeSJM+1XYGJT3Qw3r/8/5y7YtCOYo1yXVewohBkYUBNmXECmEGwpQDDJyZ5wiHr
+uGAzu8wmJC5V5UgCTNmU+3v1B/mbkGv7geMJ13OpWy7wmOfFkxFf51XGfeIGbkZ/
+W0RN22FiiUKR4omk7TpSBAgm9WzfEyDNMAyAEcyR+Ma4neBR22eoWNNl8fw+PCUs
+LSCGx5hCpHGZaVwxCMeaolCsI2hQoJga0pFKgUoY1KmCdRWoFkCqpqsaVmTJH2q9
+40oRLGKSUmGZtEsd4lUkuFR1/drKYYFgZmB42hD/uAKZGaP/nBw6mR5oTO+Z3Z52
+vuBC1itly4O8WYdOPF4bjs0LF+KC/Cw549v7ko2XQvOfVL3d3rFy88J5fVuPPG2v
+qT8Qyt5Zs3r0uc6pvPtyy7b79p2B42+cxbvb8nuLSu4ezP7KS3sPrzhb3NHYe2jN
+aWk121EUOdDghl/TruinJekLXuSnulF5CpoXFx2b3A/zCmFTtRYutqtj8Q2nhpsT
+G8bun+LNeDy+rtp59OPbXp76qIyadjh2s/Vo1+eCK3u6z0nhtfX3QnUPhxqfv6da
+mzOyI2eekWDPkVVXvRF9HbezBrpClcv75oz7+H3dkGu1l3ZN72nZ15xz/OXCZPGa
+/h2TvmRPYBP7lw5M2PkTqCk9Og==
+=Rt7L
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dikiaap
+
+==================================================================

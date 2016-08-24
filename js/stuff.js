@@ -1,9 +1,9 @@
 (function(){
   $(window).scroll(function() {
       if($(this).scrollTop() > 180) {
-          $('.navbar').addClass('nav--sticky');
+          $('.navbar').addClass('nav-sticky');
       } else {
-          $('.navbar').removeClass('nav--sticky');
+          $('.navbar').removeClass('nav-sticky');
       }
   });
 })();

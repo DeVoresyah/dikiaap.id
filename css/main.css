@@ -234,13 +234,16 @@ body, .btn {
   position: absolute;
   width: 100%;
   min-height: 600px;
+  background-size: cover;
   -webkit-transform: translate3d(0, 0, 0);
 }
 .image-wrap .regular {
   opacity: 1;
+  background: url(/img/header-bg.jpg) no-repeat center center;
 }
 .image-wrap .blurred {
   opacity: 0;
+  background: url(/img/header-blur.jpg) no-repeat center center;
 }
 
 .btn-outline {

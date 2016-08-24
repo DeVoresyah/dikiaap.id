@@ -51,7 +51,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#33B5B7">
 
     <!-- Style Sheet -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="http://localhost:8001/bootstrap.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <link href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" rel="stylesheet">
     <link href="/css/main.min.css" rel="stylesheet">
@@ -70,58 +71,40 @@
     <link href="/img/favicon-62.png" rel="icon" sizes="62x62" type="image/png">
 </head>
 <body>
-<!-- Background images -->
+<!-- Background Header -->
 <div class="image-wrap">
-    <div class="regular"
-         style="background:url(/img/header-bg.jpg) no-repeat center center; background-size: cover;"></div>
-    <div class="blurred"
-         style="background:url(/img/header-blur.jpg) no-repeat center center; background-size: cover;"></div>
+    <span class="regular"></span>
+    <span class="blurred"></span>
 </div>
 
-<!-- Header start here -->
+<!-- Highlight -->
 <header id="home" class="header__hero">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="header__hero__text">Diki Andriansyah</h1>
                 <h2>Full Stack Web Developer</h2>
-
-                <!-- Twitter -->
                 <a href="https://twitter.com/dikiaap" class="color-white color-twitter" target="_blank">
                     <i class="fa fa-twitter fa-2x fa-fw"></i></a>
                 <span class="nearby"></span>
-
-                <!-- Linkedin -->
                 <a href="https://www.linkedin.com/in/dikiaap" class="color-white color-linkedin" target="_blank">
                     <i class="fa fa-linkedin fa-2x fa-fw"></i></a>
                 <span class="nearby"></span>
-
-                <!-- GitHub -->
                 <a href="https://github.com/dikiaap" class="color-white color-black" target="_blank">
                     <i class="fa fa-github fa-2x fa-fw"></i></a>
                 <span class="nearby"></span>
-
-                <!-- CodePen -->
                 <a href="https://codepen.io/dikiaap/" class="color-white color-black" target="_blank">
                     <i class="fa fa-codepen fa-2x fa-fw"></i></a>
                 <span class="nearby"></span>
-
-                <!-- Stack Overflow -->
                 <a href="https://stackoverflow.com/users/5394213/diki-andriansyah" class="color-white color-stack-overflow" target="_blank">
                     <i class="fa fa-stack-overflow fa-2x fa-fw"></i></a>
                 <span class="nearby"></span>
-
-                <!-- Dribbble -->
                 <a href="https://dribbble.com/dikiaap" class="color-white color-dribbble" target="_blank">
                     <i class="fa fa-dribbble fa-2x fa-fw"></i></a>
                 <span class="nearby"></span>
-
-                <!-- Behance -->
                 <a href="https://www.behance.net/dikiaap" class="color-white color-behance" target="_blank">
                     <i class="fa fa-behance fa-2x fa-fw"></i></a>
                 <span class="nearby"></span>
-
-                <!-- Get in touch -->
                 <div class="header__hero__btn">
                     <a href="#contact" class="btn btn-outline btn-default">Get in touch</a>
                 </div>
@@ -143,23 +126,12 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li>
-                    <a href="#home">@dikiaap</a>
-                </li>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-                <li>
-                    <a href="https://find.dikiaap.id">Find</a>
-                </li>
-                <li>
-                    <a href="https://blog.dikiaap.id">Blog</a>
+                <li><a href="#home">@dikiaap</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://find.dikiaap.id">Find</a></li>
+                <li><a href="https://blog.dikiaap.id">Blog</a>
                 </li>
             </ul>
         </div>
@@ -205,12 +177,12 @@
         <div class="row">
             <div class="col-md-3 portfolio-item cs-style-3">
                 <a href="#" class="error">
-                <figure class="photography">
-                    <img src="/img/portfolio/land-sale-bali.jpg" alt="Land Sale Bali">
-                    <figcaption>
-                    <h3>Land Sale Bali</h3>
-                    </figcaption>
-                </figure>
+                    <figure class="photography">
+                        <img src="/img/portfolio/land-sale-bali.jpg" alt="Land Sale Bali">
+                        <figcaption>
+                        <h3>Land Sale Bali</h3>
+                        </figcaption>
+                    </figure>
                 </a>
             </div>
             <div class="col-md-3 portfolio-item cs-style-3">
@@ -235,12 +207,12 @@
             </div>
             <div class="col-md-3 portfolio-item cs-style-3">
                 <a href="#" class="error">
-                <figure>
-                    <img src="/img/portfolio/aftershock.jpg" alt="Aftershock">
-                    <figcaption>
-                    <h3>Aftershock</h3>
-                    </figcaption>
-                </figure>
+                    <figure>
+                        <img src="/img/portfolio/aftershock.jpg" alt="Aftershock">
+                        <figcaption>
+                        <h3>Aftershock</h3>
+                        </figcaption>
+                    </figure>
                 </a>
             </div>
             <div class="col-md-3 portfolio-item cs-style-3">
@@ -256,7 +228,7 @@
         </div>
         <br><br>
 
-        <!-- GitHub Portfolio -->
+        <!-- GitHub -->
         <div class="row">
             <h3 class="text-center">GitHub</h3>
         </div>
@@ -363,7 +335,7 @@
         </div>
         <br><br>
 
-        <!-- Free Code Camp Portfolio -->
+        <!-- Free Code Camp -->
         <div class="row">
             <h3 class="text-center">Free Code Camp</h3>
         </div>
@@ -398,45 +370,33 @@
 <section id="contact" class="section-intro section-grey">
     <div class="container height">
         <div class="row">
-
-            <!-- Tell my contacts -->
             <div class="col-sm-12 col-md-12 col-xs-12 text-center">
                 <h2>Get in touch</h2>
                 Go ahead, you awesome<br>
                 <div class="space"></div>
             </div>
-
-            <!-- Images profile -->
             <div class="col-sm-12 col-md-12 col-xs-12 text-center">
                 <img src="/img/dikiaap.jpg" class="rounded" alt="Diki Andriansyah">
                 <div class="space"></div>
                 <h4>Diki Andriansyah</h4>
                 <strong>Indonesia</strong><br><br>
             </div>
-
             <div class="col-sm-3 col-md-3 col-xs-12"></div>
-            <!-- Email -->
             <div class="col-sm-3 col-md-3 col-xs-12 text-right text-xs-center">
                 <a href="mailto:diki1aap@gmail.com?subject=Hello" class="btn btn-info btn-lg btn-radius-false">
                     <i class="fa fa-envelope-o fa-fw"></i> Sent a mail</a>
             <div class="space-without-words"></div>
             </div>
-
-            <!-- Hire me -->
             <div class="col-sm-3 col-md-3 col-xs-12 text-left text-xs-center">
                 <div class="btn-group">
                     <a href="https://www.upwork.com/o/profiles/users/_~018a3960b9d323e34c/" class="btn btn-info btn-lg btn-radius-false" target="_blank">
                         <i class="fa fa-building-o fa-fw"></i> Hire Me</a>
-
-                    <!-- Dropdown -->
                     <button type="button" class="btn btn-info btn-lg dropdown-toggle btn-radius-false" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="caret"></span>
                         <span class="sr-only">Toggle Dropdown</span>
                     </button>
                     <ul class="dropdown-menu">
                         <li><a href="https://www.upwork.com/o/profiles/users/_~018a3960b9d323e34c/" target="_blank">Upwork</a></li>
-
-                        <!-- Separator -->
                         <li role="separator" class="divider"></li>
                         <li><a href="https://www.sribulancer.com/id/users/dikiaap" target="_blank">Sribulancer</a></li>
                         <li><a href="https://projects.co.id/public/browse_users/view/eca911/dikiaap" target="_blank">Projects.co.id</a></li>
@@ -444,12 +404,10 @@
                 </div>
             </div>
             <div class="col-sm-3 col-md-3 col-xs-12"></div>
-
         </div>
     </div>
 </section>
 
-<!-- Footer start here -->
 <footer>
     <div class="container">
         <div class="row">
@@ -460,31 +418,27 @@
     </div>
 </footer>
 
-<!-- Button scrolling up -->
+<!-- Button Scrolling Up -->
 <a href="#home" ID="to-top"><i class="fa fa-angle-double-up"></i></a>
 
-<!-- JavaScript source -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+<script src="//localhost:8001/jquery.min.js"></script>
+<script src="//localhost:8001/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 <script src="/js/stuff.min.js"></script>
-
-<!-- SweetAlert -->
 <script>
     $('a.error').click(function() {
         swal("Oops...", "Something went wrong!\nIt's broken link", "warning");
     });
 </script>
-
-<!-- Google Analytics -->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-64731723-6', 'auto');
-  ga('send', 'pageview');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-64731723-6', 'auto');
+    ga('send', 'pageview');
 </script>
-
 </body>
 </html>

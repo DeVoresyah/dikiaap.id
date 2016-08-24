@@ -326,6 +326,10 @@ section {
   text-decoration: none;
 }
 
+.space-2x {
+  padding-bottom: 48px;
+}
+
 .cs-style-3 figure {
   margin-top: 30px;
   margin-bottom: 5px;
@@ -403,23 +407,27 @@ section {
 /**
  * Contact
  */
-.space-bottom {
-    padding-bottom: 50px;
+.space-contact {
+  padding-bottom: 50px;
 }
 
 @media (max-width: 768px) {
-  .space-bottom {
+  .space-contact {
     padding-bottom: 75px;
   }
 }
 
-.space-top {
-    padding-top: 20px;
+.space {
+  padding-bottom: 20px;
 }
 
 .rounded {
-    width: 120px;
-    border-radius: 50%;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.space-top {
+  padding-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -430,10 +438,6 @@ section {
 
 .btn-radius-false {
   border-radius: 0px;
-}
-
-.space-without-words {
-    height: 20px;
 }
 
 /**

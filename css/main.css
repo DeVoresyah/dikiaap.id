@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700);
-@import url(https://fonts.googleapis.com/css?family=Comfortaa:300);
 
 *,
 *:before,
@@ -384,7 +383,8 @@ section {
   color: #fff;
   width: 50%;
   position: absolute;
-  font-size: 1.65rem;
+  font-weight: 400;
+  font-size: 1.55rem;
   margin-top: 3px;
 }
 

@@ -385,7 +385,7 @@ section {
   position: absolute;
   font-weight: 400;
   font-size: 1.55rem;
-  margin-top: 3px;
+  margin-top: 5px;
 }
 
 .cs-style-3 figure figcaption a {
@@ -449,8 +449,8 @@ footer {
 }
 
 footer p {
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 /**
